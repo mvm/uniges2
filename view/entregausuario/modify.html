@@ -1,0 +1,30 @@
+<h1 text-id="entregausuario_edit_title">{{entregausuario_edit_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<div id="entregausuarioTable">
+<form onsubmit="onSubmitModify(); return false" name="modifyForm">
+
+    <div class="form-group">
+<label for="HorasInput" text-id="entregausuario_horas">{{entregausuario_horas}}</label>
+<input class="form-control" type="number" name="Horas" id="HorasInput" />
+    </div>
+
+    <div class="form-group">
+        <label for="AliasInput" text-id="entregausuario_alias">{{entregausuario_alias}}</label>
+        <input class="form-control" type="text" name="Alias" id="AliasInput" />
+    </div>
+
+    <div class="form-group">
+        <label for="RutaInput" text-id="entregausuario_ruta">{{entregausuario_ruta}}</label>
+        <input class="form-control" type="text" name="Ruta" id="RutaInput" />
+    </div>
+
+    <div class="form-group">
+<label for="fileInput" text-id="entregausuario_file">{{entregausuario_file}}</label>
+<input class="form-control-file" type="file" name="file" id="fileInput" />
+    </div>
+
+<input class="btn btn-primary" type="submit" text-value="entregausuario_edit_submit" value="{{entregausuario_edit_submit}}" />
+</form>
+</div>

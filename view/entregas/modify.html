@@ -1,0 +1,34 @@
+<h1 text-id="entrega_edit_title">{{entrega_edit_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<div id="entregasTable">
+<form onsubmit="onSubmitModify(); return false" name="modifyForm">
+    <div class="form-group">
+    <label for="idInput" text-id="entrega_id">{{entrega_id}}</label>
+    <input class="form-control" type="text" name="id" id="idInput" readonly/>
+    </div>
+    
+    <div class="form-group">
+    <label for="nombreInput" text-id="entrega_name">{{entrega_name}}</label>
+    <input class="form-control" type="text" name="nombre" id="nombreInput" /><i id="nombreValid"></i>
+    </div>
+
+    <div class="form-group">
+    <label for="desdeInput" text-id="entrega_from">{{entrega_from}}</label>
+    <input class="form-control" type="date" name="desde" id="desdeInput" /><i id="desdeValid"></i>
+    </div>
+
+    <div class="form-group">
+    <label for="hastaInput" text-id="entrega_to">{{entrega_to}}</label>
+    <input class="form-control" type="date" name="hasta" id="hastaInput" /><i id="hastaValid"></i>
+    </div>
+
+    <div class="form-group">
+        <label for="hastaCorrInput" text-id="entrega_to_corr">{{entrega_to_corr}}</label>
+        <input class="form-control" type="date" name="hastaCorr" id="hastaCorrInput" /><i id="hastaCorrValid"></i>
+    </div>
+
+<input class="btn btn-primary" type="submit" text-value="entrega_edit_submit" value="{{entrega_edit_submit}}" />
+</form>
+</div>

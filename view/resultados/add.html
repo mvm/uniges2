@@ -1,0 +1,32 @@
+<h1 text-id="resultados_add_title">{{resultados_add_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<div id="resultadosTable">
+<form onsubmit="onSubmitAdd(); return false" name="addForm">
+
+    <div class="form-group">
+<label for="evaluacionInput" text-id="resultados_evaluacion">{{resultados_evaluacion}}</label>
+<select class="form-control" name="evaluacion" id="evaluacionInput">
+</select>
+    </div>
+
+    <div class="form-group">
+<label for="IdHistoriaInput" text-id="resultados_idhistoria">{{resultados_idhistoria}}</label>
+<select class="form-control" name="IdHistoria" id="IdHistoriaInput">
+    </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CorreccionInput" text-id="resultados_correccion">{{resultados_correccion}}</label>
+        <input class="form-control" type="number" name="Correccion" id="CorreccionInput" />
+    </div>
+
+    <div class="form-group">
+        <label for="ComentarioInput" text-id="resultados_comentario">{{resultados_comentario}}</label>
+        <input class="form-control" type="text" name="Comentario" id="ComentarioInput" />
+    </div>
+
+<input class="btn btn-primary" type="submit" text-value="resultados_add_submit" value="{{resultados_add_submit}}" />
+</form>
+</div>

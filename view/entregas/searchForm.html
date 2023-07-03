@@ -1,0 +1,15 @@
+<h1 text-id="entrega_search_title">{{entrega_search_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<div id="entregasTable">
+<form onsubmit="onSubmitSearchForm(); return false" name="searchForm">
+
+    <div class="form-group">
+<label for="nombreInput" text-id="entrega_name">{{entrega_name}}</label>
+<input class="form-control" type="text" name="nombre" id="nombreInput" /><br/>
+    </div>
+
+<input class="btn btn-primary" type="submit" text-value="entrega_search_submit" value="{{entrega_search_submit}}" />
+</form>
+</div>

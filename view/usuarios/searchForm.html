@@ -1,0 +1,35 @@
+<h1 text-id="user_search_title">{{user_search_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<form onsubmit="onSubmitSearchForm(); return false" name="searchForm">
+
+    <div class="form-group">
+    <label for="loginInput" text-id="user_add_login">{{user_add_login}}</label>
+    <input class="form-control" type="text" name="login" id="loginInput"/>
+    </div>
+
+    <div class="form-group">
+<label for="nombreInput" text-id="user_name">{{user_name}}</label>
+<input class="form-control" type="text" name="nombre" id="nombreInput" />
+    </div>
+
+    <div class="form-group">
+<label for="apellidosInput" text-id="user_surname">{{user_surname}}</label>
+<input class="form-control" type="text" name="apellidos" id="apellidosInput" />
+    </div>
+
+    <div class="form-group">
+<label for="dniInput" text-id="user_add_id">{{user_add_id}}</label>
+<input class="form-control" type="text" name="dni" id="dniInput" />
+    </div>
+
+    <div class="form-group">
+<label for="correoInput" text-id="user_email">{{user_email}}</label>
+<input class="form-control" type="text" name="email" id="correoInput" />
+    </div>
+
+    <div class="form-group">
+<input class="btn btn-primary" type="submit" value="{{user_search_submit}}" text-value="user_search_submit" />
+    </div>
+</form>

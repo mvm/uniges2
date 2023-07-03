@@ -1,0 +1,14 @@
+{
+    "name": "miguel/pdp-julio",
+    "require": {
+        "firebase/php-jwt": "^6.1",
+        "notihnio/php-request-parser": "^1.0",
+        "notihnio/php-multipart-form-data-parser": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Miguel Vicente Moure",
+            "email": "mvmoure@esei.uvigo.es"
+        }
+    ]
+}

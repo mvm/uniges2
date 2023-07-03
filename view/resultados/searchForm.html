@@ -1,0 +1,40 @@
+<h1 text-id="resultados_search_title">{{resultados_search_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<div id="resultadosTable">
+<form onsubmit="onSubmitSearch(); return false" name="searchForm">
+
+    <div class="form-group">
+        <label for="IdEntregaInput" text-id="resultados_identrega">{{resultados_identrega}}</label>
+        <input class="form-control" type="text" name="IdEntrega" id="IdEntregaInput" />
+    </div>
+
+    <div class="form-group">
+        <label for="AliasAutorInput" text-id="resultados_aliasautor">{{resultados_aliasautor}}</label>
+        <input class="form-control" type="text" name="AliasAutor" id="AliasAutorInput" />
+    </div>
+
+    <div class="form-group">
+        <label for="loginEvaluadorInput" text-id="resultados_loginEvaluador">{{resultados_loginEvaluador}}</label>
+        <input class="form-control" type="text" name="loginEvaluador" id="loginEvaluadorInput" />
+    </div>
+
+    <div class="form-group">
+<label for="IdHistoriaInput" text-id="resultados_idhistoria">{{resultados_idhistoria}}</label>
+<input class="form-control" type="number" name="IdHistoria" id="IdHistoriaInput" />
+    </div>
+
+    <div class="form-group">
+        <label for="CorreccionInput" text-id="resultados_correccion">{{resultados_correccion}}</label>
+        <input class="form-control" type="number" name="Correccion" id="CorreccionInput" />
+    </div>
+
+    <div class="form-group">
+        <label for="ComentarioInput" text-id="resultados_comentario">{{resultados_comentario}}</label>
+        <input class="form-control" type="text" name="Comentario" id="ComentarioInput" />
+    </div>
+
+<input class="btn btn-primary" type="submit" text-value="resultados_search_submit" value="{{resultados_search_submit}}" />
+</form>
+</div>

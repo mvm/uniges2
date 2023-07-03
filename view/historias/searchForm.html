@@ -1,0 +1,21 @@
+<h1 text-id="historia_search_title">{{historia_search_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<div id="historias">
+<form onsubmit="onSubmitSearchForm(); return false" name="searchForm">
+
+    <div class="form-group">
+<label for="IdEntregaInput" text-id="historia_id_entrega">{{historia_id_entrega}}</label>
+<input class="form-control" type="text" name="IdEntrega" id="IdEntregaInput">
+    </div>
+
+    <div class="form-group">
+<label for="textoHistoriaInput" text-id="historia_texto">{{historia_texto}}</label>
+<textarea class="form-control" name="textoHistoria" id="textoHistoriaInput">
+</textarea>
+    </div>
+
+<input class="btn btn-primary" type="submit" value="{{historia_search_submit}}" text-value="historia_search_submit"/>
+</form>
+</div>

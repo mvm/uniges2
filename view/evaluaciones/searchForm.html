@@ -1,0 +1,27 @@
+<h1 text-id="evaluacion_search_title">{{evaluacion_search_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<div id="evaluacionTable">
+<form onsubmit="onSubmitSearchForm(); return false" name="searchForm">
+
+    <div class="form-group">
+<label for="IdEntregaInput" text-id="evaluacion_entrega">{{evaluacion_entrega}}</label>
+<input class="form-control" type="text" id="IdEntregaInput" name="IdEntrega"/>
+    </div>
+
+    <div class="form-group">
+    <label for="AliasAutorInput" text-id="evaluacion_alias">{{evaluacion_alias}}</label>
+    <input class="form-control" type="text" id="AliasAutorInput" name="AliasAutor"/>
+    </div>
+
+    <div class="form-group">
+<label for="loginEvaluadorInput" text-id="evaluacion_loginEvaluador">{{evaluacion_loginEvaluador}}</label>
+<input class="form-control" type="text" id="loginEvaluadorInput" name="loginEvaluador"/>
+    </div>
+
+    <div class="form-group">
+<input class="form-control btn btn-primary" type="submit" text-value="evaluacion_search_submit" value="{{evaluacion_search_submit}}" />
+    </div>
+</form>
+</div>

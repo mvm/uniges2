@@ -1,0 +1,38 @@
+<h1 text-id="user_add_title">{{user_add_title}}</h1>
+
+<div id="errorDiv"></div>
+
+<form onsubmit="onSubmitAdd(); return false" name="addForm">
+
+    <div class="form-group">
+<label for="loginInput" text-id="user_add_login">{{user_add_login}}</label>
+<input class="form-control" type="text" name="login" id="loginInput"/> <i id="loginValid"></i>
+    </div>
+
+    <div class="form-group">
+<label for="passwordInput" text-id="user_add_password">{{user_add_password}}</label>
+<input class="form-control" type="password" name="password" id="passwordInput" /> <i id="passwordValid"></i>
+    </div>
+
+    <div class="form-group">
+<label for="nombreInput" text-id="user_name">{{user_name}}</label>
+<input class="form-control" type="text" name="nombre" id="nombreInput" /> <i id="nombreValid"></i>
+    </div>
+
+    <div class="form-group">
+<label for="apellidosInput" text-id="user_surname">{{user_surname}}</label>
+<input class="form-control" type="text" name="apellidos" id="apellidosInput" /> <i id="apellidosValid"></i>
+    </div>
+
+    <div class="form-group">
+<label for="dniInput" text-id="user_add_id">{{user_add_id}}</label>
+<input class="form-control" type="text" name="dni" id="dniInput" /><i id="dniValid"></i>
+    </div>
+
+    <div class="form-group">
+<label for="correoInput" text-id="user_email">{{user_email}}</label>
+<input class="form-control" type="text" name="email" id="emailInput" /> <i id="emailValid"></i>
+    </div>
+
+<input class="btn btn-primary" type="submit" text-value="user_add_submit" value="{{user_add_submit}}" />
+</form>
